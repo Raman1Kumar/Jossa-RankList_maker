@@ -1,0 +1,18 @@
+{
+  "name": "jossa",
+  "version": "1.0.0",
+  "description": "Prepare jossa Rank list using Rank and preference of candidate",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "html2pdf.js": "^0.10.1",
+    "nodemon": "^2.0.20"
+  }
+}

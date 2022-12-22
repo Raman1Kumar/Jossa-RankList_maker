@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jossa-RankList</title>
+    <link rel="stylesheet" href="table.css" />
+    <script src="./html2pdf/html2pdf.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="second.css" />
+    <link rel="stylesheet" href="gender.css" />
+    <link rel="stylesheet" href="checkbox.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="first">
+      <nav>
+        <ul>
+          <li class="logo">Jossa Rank-List</li>
+          <li class="items"><a href="#">Home</a></li>
+          <li class="items"><a href="#">About</a></li>
+
+          <li class="items"><a href="#">Contact</a></li>
+          <li class="items"><a href="#">Feedback</a></li>
+          <li class="btn">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="first_2">
+        <div class="first_title">
+          <h1 class="first_h">Create your Jossa Rank list</h1>
+        </div>
+        <a href="#second">
+          <div class="first_btn btn-grad">Click here</div>
+        </a>
+      </div>
+    </div>
+    <!-- 
+
+        SECOND START FROM HERE
+       -->
+
+    <!-- 
+
+        SECOND START FROM HERE
+       -->
+
+    <!-- 
+
+        SECOND START FROM HERE
+       -->
+
+    <a href="" name="second"></a>
+    <div class="second">
+      <!-- 
+
+        LEFT START FROM HERE
+       -->
+
+      <!-- 
+
+        LEFT START FROM HERE
+       -->
+
+      <!-- 
+
+        LEFT START FROM HERE
+       -->
+      <div class="left">
+        <h1 class="features">Features</h1>
+        <ul class="ul">
+          <li class="li">Automated</li>
+          <li class="li">Free</li>
+          <li class="li">Don't miss any college</li>
+          <li class="li">Dont't miss any branch</li>
+          <li class="li">:)</li>
+        </ul>
+      </div>
+
+      <!-- 
+
+        RIGHT START FROM HERE
+       -->
+
+      <!-- 
+
+        RIGHT START FROM HERE
+       -->
+
+      <!-- 
+
+        RIGHT START FROM HERE
+       -->
+      <div class="right">
+        <form method="get" id="myform">
+          <div class="rank">
+            <div class="gen_rank">
+              <label for="AIR" class="rank_label">Air (All India Rank)</label>
+              <input type="number" id="AIR" name="AIR" placeholder="ALL" />
+            </div>
+            <div class="cat_rank">
+              <label for="cat_rank" class="rank_label">Category Rank</label>
+              <input type="number" id="cat_rank" name="cat_rank" />
+            </div>
+          </div>
+          <div class="cat_state">
+            <div class="cat">
+              <label for="fname" class="cat_label">Category</label>
+              <select name="category" id="category">
+                <option value="0">General</option>
+                <option value="1">EWS</option>
+                <option value="2">OBC-NCL</option>
+                <option value="3">SC</option>
+                <option value="4">ST</option>
+              </select>
+            </div>
+            <div class="state">
+              <label for="fname" class="state_label">State</label>
+              <select name="state" id="state" disabled>
+                <!-- All India -->
+                <option value="AI">All India</option>
+                <option value="Bihar">Bihar</option>
+                <option value="UP">Up</option>
+              </select>
+            </div>
+          </div>
+          <div class="gen">
+            <!-- <label for="gen"> Gender</label> -->
+            <input type="checkbox" id="gen" name="gen" />
+          </div>
+          <div class="submit">
+            <input
+              type="submit"
+              class="submit btn-grad"
+              value="Submit"
+              id="sub_btn"
+            />
+          </div>
+
+          <!-- <input type="checkbox" id="toggle" /> -->
+        </form>
+      </div>
+    </div>
+
+    <!-- 
+
+        SECOND END FROM HERE
+       -->
+
+    <!-- 
+
+        SECOND END FROM HERE
+       -->
+
+    <!-- 
+
+        SECOND END FROM HERE
+       -->
+
+    <div id="table_here"></div>
+    <div class="footer">
+      <div class="rights">
+        <h1>
+          <i class="fa-sharp fa-solid fa-copyright"></i>All Right Reserved
+        </h1>
+      </div>
+      <div class="social">
+        <h1>
+          Follow <a href=""><i class="fa-brands fa-twitter twitter"></i></a>
+        </h1>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".btn").click(function () {
+          $(".items").toggleClass("show");
+          $("ul li").toggleClass("hide");
+        });
+      });
+    </script>
+    <script src="./index1.js"></script>
+    <script src="./index11.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+.second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 50px 10px; */
+}
+
+/* LEft start from herre
+
+ LEft start from herre
+
+*/
+li {
+  list-style: none;
+}
+.left {
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  padding: 10px;
+  /* border: 1px solid red; */
+  font-size: 30px;
+}
+.features {
+  color: #0071e3;
+}
+
+.li {
+  margin: 30px;
+}
+/* .ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+/* RIght start from herre
+
+*/
+
+/* RIght start from herre
+
+*/
+.right {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  font-size: 30px;
+}
+.rank {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#AIR {
+}
+
+input[type="number"] {
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid blue;
+  font-size: 30px;
+  width: 200px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]:focus,
+input[type="number"]:active {
+  outline: none;
+  border-bottom: 3px solid blue;
+  transition: border 0.3s ease;
+}
+
+.rank {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gen_rank {
+  margin: 10px;
+}
+.cat_rank {
+  margin: 10px;
+}
+.cat_state {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  /* align-items: center; */
+}
+.cat {
+  /* font-size: 20px; */
+  margin: 10px;
+}
+.state {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+#category {
+  font-size: 30px;
+}
+#state {
+  font-size: 30px;
+}
+.gen {
+  margin-left: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.submit {
+  height: 100px;
+  width: 80%;
+  font-size: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* background-color: #272343; */
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
