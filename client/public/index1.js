@@ -24,7 +24,7 @@ async function handleForm(event) {
   console.log(gen);
 
   console.log("DOM fully loaded and parsed");
-  fetch("http://localhost:5000/ranklist", {
+  fetch("/ranklist", {
     method: "POST",
     headers: {
       Accept: "application/json",
