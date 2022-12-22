@@ -10,7 +10,7 @@ const cors = require("cors");
 const { type } = require("os");
 app.use(cors());
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
